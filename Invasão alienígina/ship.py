@@ -22,7 +22,6 @@ class Ship:
         if self.moving_left and self.rect.left > self.screen_rect.left:
             self.rect.centerx -= 1
 
-
     # desennhado na tela
     def blitme(self):
         self.screen.blit(self.image, self.rect)
